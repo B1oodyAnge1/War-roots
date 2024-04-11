@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://cxaxr13dlbea3"]
+
+[ext_resource type="Texture2D" uid="uid://dqe8jat034fb0" path="res://Sprites/TX Village Props.png" id="1_s0lob"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qnwau"]
+atlas = ExtResource("1_s0lob")
+region = Rect2(421.083, 423.975, 23.1405, 16.5289)
+
+[node name="StaticBody2D" type="StaticBody2D"]
+position = Vector2(49, 45)
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(3.3792, 2.56)
+texture = SubResource("AtlasTexture_qnwau")
